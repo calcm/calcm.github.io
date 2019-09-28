@@ -1,0 +1,60 @@
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CalcM</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="header">
+        <h2>CalcM</h2>
+    </div>
+
+    <div class="userInput">
+        <input type="text" id="inputText">
+        <i class="fas fa-backspace" onclick="deleteLast();"></i>
+    </div>
+
+    <div class="output">
+        <p id="outputText"></p>
+    </div>
+
+    <div class="row1">
+        <input type="button" value="9" onclick="insert(9);">
+        <input type="button" value="8" onclick="insert(8);">
+        <input type="button" value="7" onclick="insert(7);">
+        <input type="button" value="/" onclick="insert('/');">
+    </div>
+
+    <div class="row2">
+        <input type="button" value="6" onclick="insert(6);">
+        <input type="button" value="5" onclick="insert(5);">
+        <input type="button" value="4" onclick="insert(4);">
+        <input type="button" value="%" onclick="insert('%');">
+    </div>
+
+    <div class=" row3 ">
+        <input type="button" value="3" onclick="insert(3);">
+        <input type="button" value="2" onclick="insert(2);">
+        <input type="button" value="1" onclick="insert(1);">
+        <input type="button" value="-" onclick="insert('-');">
+    </div>
+
+    <div class="row4">
+        <input type="button" value="+" onclick="insert('+');">
+        <input type="button" value="0" onclick="insert(0);">
+        <input type="button" value="*" onclick="insert('*');">
+        <input type="button" value="=" id="submit">
+    </div>
+
+    <script src="https://kit.fontawesome.com/a48cd36d09.js" crossorigin="anonymous"></script>
+    <script src="calculator.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.userInput input {
+    font-size: 15px;
+}
+
+.userInput i {
+    font-size: 18px;
+}
+
+.output p {
+    font-size: 20px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+}
+
+.row1 input {
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+}
+
+.row2 input {
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.row3 {
+    display: flex;
+    justify-content: center;
+}
+
+.row3 input {
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.row4 {
+    display: flex;
+    justify-content: center;
+}
+
+.row4 input {
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+}
